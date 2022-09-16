@@ -61,3 +61,8 @@ body{
 #glasses{
     transition: all 0.5s;
 }
+
+.price{
+    color: white;
+    background-color: red;
+}

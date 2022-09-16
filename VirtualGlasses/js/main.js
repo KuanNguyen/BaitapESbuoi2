@@ -35,9 +35,9 @@ let glassInfo = (id) => {
                 <img src="${virtualImg}" alt="">
             `;
             document.querySelector("#glassesInfo").innerHTML = `
-            <h2 class="myTitle">${name} - ${brand}(${color})</h2>
-            <div class="stockWrapper">
-                <a href="#" class="myPrice">${price}</a>
+            <h4>${name} - ${brand}(${color})</h4>
+            <div>
+                <a href="#" class="price">$${price}</a>
                 <span>Stocking</span>
             </div>
             <p>${description}</p>
